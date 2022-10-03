@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
+    html, body{
+      background-color: darkgray;
+      height: 100vh;
+   }
+  header{
+     background-color: black;
+     color: white;
+     text-align: center;
+     
+  }
+  header > h1{
+   padding-top: 50px;
+   font-variant: small-caps;
+   font-family: 'Raleway', sans-serif;
+  }
+  header > p{
+   padding-bottom: 50px;
+   font-family: 'Raleway', sans-serif;
+  }
+  a{
+   color: white;
+   text-decoration: none;
+   font-weight: bolder;
+  }
+  a:hover{
+   text-decoration: underline;
+  }
+  section{
+   padding-top: 10vh;
+   padding-bottom: 10vh;
+   line-height: 2em;
+   padding-left: 30px;
+   min-width: 380px;
+  }
+  .normal{
+   background-color: white;
+   color: black;
+   font-family: 'Alkalami', serif;
+
+  }
+  .imagem{
+   background-color: rgb(51, 51, 51);
+   color: white;
+   font-family: 'Raleway', sans-serif;
+   box-shadow: 10px 10px 10px 10px rgba(20, 1, 1, 0.912);
+   background-size: cover;
+   background-attachment: fixed;
+
+  }
+  .imagem > p{
+   width: 400px;
+   background-color: rgba(0, 0, 0, 0.253);
+   font-family: 'Raleway', sans-serif;
+  }
+  #img01{
+   background-image:url(imagens/pexels-olya-kobruseva-5739808.jpg);
+   background-size: cover;
+
+  }
+  #img02{
+   background-image: url(https://www.parejaquesuma.com/wp-content/uploads/2015/11/libros.jpg);
+   background-position: right center;
+   background-size: cover;
+  }
+  footer{
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding: 10px;
+  }
+  footer > p{
+   font-family: 'Raleway', sans-serif;
+  }
+ 
+  
